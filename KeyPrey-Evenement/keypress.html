@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>L'événement Keypress</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/popup.css">
   </head>
   <body>
     <div id="page">
@@ -14,6 +15,18 @@
         <div id="charactersLeft">180 caractères </div>
         <div id="lastKey"></div>
       </form>
+
+      <section>
+        <div class="modal-box">
+          <i class="fa-regular fa-circle-check"></i>
+          <h2>Erreur</h2>
+          <h3>Vous ne pouvez pas ecrire plus de 180 caractere .</h3>
+    
+          <div class="buttons">
+            <button class="close-btn">OK</button>
+          </div>
+        </div>
+      </section>
     </div>
     <script src="js/jquery-3.6.1.min.js"></script>
     <script src="js/keypress.js"></script>
